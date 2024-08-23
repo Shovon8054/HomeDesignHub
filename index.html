@@ -23,9 +23,9 @@
 <!-- ========================================BODY=========================================== -->
 <body class="manrope-font text-black bg-[#f7f6f5]">
     <!-- Header -->
-    <header>
+    <header class="sm:mx-10">
         <!-- Navbar -->
-        <nav class="mx-20">
+        <nav class="mx-20 sm:mx-10">
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -94,12 +94,83 @@
 
 
     <!-- Main Section -->
-    <main>
-        
+    <main class="sm:mx-10 sm:my-5">
+        <!-- section 1 -->
+        <section class="bg-base-120 mx-20">
+            <!-- parent div -->
+            <div class="my-[100px] lg:flex lg:flex-row lg:space-x-3 sm:flex sm:flex-col-reverse sm:my-5 ">
+                
+                <!-- details div -->
+                <div class="space-y-2 sm:my-5">
+                    <img class="-ml-[50px] mb-10" src="assets/Vector.png" alt="">
+                    
+                    <button class="p-3 border-black border-2 rounded-full bg-white"><i class="fa-solid fa-arrow-right"></i> About Us</button>
+                    <h1 class="text-[40px] font-semibold">We design thoughtful,<br> liveable spaces</h1>
+                    <p class="text-[16px] opacity-80">The barn house captivates with its blend of rustic charm and modern <br> sophistication, featuring weathered wood, sleek metal accents.</p>
+
+                    <div tabindex="0" class=" collapse collapse-close border-base-300 bg-white border flex">
+                        <img class="opacity-80 py-7 pl-10" src="assets/commercial.png" alt="">
+                        <div class="collapse-title flex flex-col justify-center ml-5">
+                            <h1 class="text-[20px] font-semibold">Commercial</h1>
+                            <p class="text-[16px] opacity-80">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                        </div>
+                    </div>
+
+                    <div tabindex="0" class=" collapse collapse-close border-base-300 bg-white border flex">
+                        <img class="opacity-80 py-7 pl-10" src="assets/residential.png" alt="">
+                        <div class="collapse-title flex flex-col justify-center ml-5">
+                            <h1 class="text-[20px] font-semibold">Residential</h1>
+                            <p class="text-[16px] opacity-80">The barn house captivates with its blend of <br> rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- img div -->
+                <div>
+                    <img class="mr-[50px] mt-20 pt-20 rounded-xl h-[500px]"
+                      src="assets/Rectangle.png"
+                      alt="Album" />
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section 2 -->
+        <sections>
+            <div class="flex justify-center my-[100px]">
+                <div class="stats stats-vertical lg:stats-horizontal shadow ">
+                    
+                    <!-- stat1 -->
+                    <div class="stat">
+                      <div><i class="fa-regular fa-message flex justify-center text-[20px] mb-3"></i></div>
+                      <div class="stat-value text-center">235+</div>
+                      <div class="stat-title opacity-80 text-[16px] text-center">Happy Client Review</div>
+                    </div>
+    
+                    <!-- stat2 -->
+                    <div class="stat">
+                        <div><i class="fa-regular fa-building  flex justify-center text-[20px] mb-3"></i></div>
+                        <div class="stat-value text-center">50+</div>
+                        <div class="stat-title opacity-80 text-[16px] text-center">Our Happy Client</div>
+                    </div>
+                    
+                    <!-- stat3 -->
+                    <div class="stat">
+                        <div><i class="fa-solid fa-users flex justify-center text-[20px] mb-3"></i></div>
+                        <div class="stat-value text-center">30+</div>
+                        <div class="stat-title opacity-80 text-[16px] text-center">Staff Members</div>
+                    </div>
+    
+                    <!-- stat4 -->
+                    <div class="stat">
+                        <div><i class="fa-solid fa-user-group flex justify-center text-[20px] mb-3"></i></div>
+                        <div class="stat-value text-center">307+</div>
+                        <div class="stat-title opacity-80 text-[16px] text-center">Downloads</div>
+                    </div>
+                    
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="sm:mx-10"></footer>
     
 </body>
 </html>
